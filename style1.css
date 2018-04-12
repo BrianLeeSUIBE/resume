@@ -1,0 +1,286 @@
+body{
+    font-family: Microsoft YaHei;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    
+}
+.head{
+    background: linear-gradient(to top, rgb(3, 236, 185), rgb(5, 161, 161));
+    height: 900px;
+    width: 100%;
+}
+.title{
+    height: 30px;
+    width: 100%;
+    position: fixed;
+}
+img.signal{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: -50px;
+}
+
+p{
+   margin-left: 20px; 
+   padding-top: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+
+}
+p.style1{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 200px;
+    font-family:Microsoft YaHei;
+    color:white;
+    font-size:70px;
+    animation: mymain1 1.8s;
+}
+img.circle{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border-radius:100%;
+    overflow:hidden;
+    margin-left: 30%;
+    margin-top: 200px;
+    animation: mycircle 1.8s;
+    
+}
+@keyframes mycircle{
+    from{margin-left: -189px;}
+    to{margin-left: 30%}
+}
+p.style2{
+    position: absolute;
+    left: 50%;
+    margin-top: 300px;
+    font-family:Microsoft YaHei;
+    color:white;
+    font-size:25px;
+    animation: mymain2 1.8s;
+}
+p.style3{
+    position: absolute;
+    left: 54%;
+    margin-top: 340px;
+    font-family:Microsoft YaHei;
+    color:white;
+    font-size:25px;
+    animation: mymain3 1.8s;
+}
+
+@keyframes mymain1{
+    0%{margin-top: 0%;}
+    100%{margin-top: 200px;}
+}
+@keyframes mymain2{
+    0%{left: 80%;}
+    100%{left: 50%;}
+}
+@keyframes mymain3{
+    0%{left: 80%;}
+    100%{left: 54%;}
+}
+
+
+.clickbox1{
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    margin-left: 30%;
+    margin-top: 500px;
+    border: 3px solid rgba(255, 255, 255, 1);
+    border-radius: 4%;
+    background-color:rgb(red, green, blue,0);
+    text-align: center;
+    padding-top: 1px;
+    font-size: 15px;
+    animation: myclick 1.8s;
+}
+.clickbox2{
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    margin-left: 38%;
+    margin-top: 500px;
+    background-color: white;
+    border:3px solid rgba(255, 255, 255, 1);;
+    border-radius: 4%;
+    background-color:white;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 15px;
+    animation: myclick 1.8s;
+}
+p.style4{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 500px;
+    font-family:Microsoft YaHei;
+    color:white;
+    font-size:20px;
+    animation: myclick1 1.8s;
+}
+@keyframes myclick{
+    0%{margin-top: 0%;}
+    100%{margin-top: 500px;}
+}
+@keyframes myclick1{
+    0%{margin-top: 0%;}
+    100%{margin-top: 500px;}
+}
+.main1{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+
+}
+
+img.main1img{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    padding-left: 15.5%;
+    padding-top: 20px;
+    animation:  myimg 1s;
+}
+@keyframes myimg{
+    0%{padding-left: 0%;}
+    100%{padding-left: 15.5%;}
+}
+
+p.style5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 60px;
+    font-size: 35px;
+    color: rgb(32, 32, 32);
+    animation: mytitle 1s;
+    
+
+}
+@keyframes mytitle{
+    from{margin-top: 0%;}
+    to{margin-top: 60px;}
+}
+
+.inform{
+    position: absolute;
+    left: 58%;
+    margin-top: 110px;
+    animation: myfirst 1s;
+    animation-timing-function:linear;
+}
+
+@keyframes myfirst{
+    0%{left: 100%;}
+    100%{left: 58%;}
+}
+
+.intro{
+    height: 800px;
+    width: 100%;
+}
+
+p.introC{
+    position: absolute;
+    margin-left: 14%;
+    color: rgb(75, 75, 75);
+    
+}
+p.introE{
+    position: absolute;
+    margin-left: 48%;
+    color:rgb(75,75,75)
+}
+img.comp{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 10%;
+}
+.life{
+    background-color: rgb(243, 241, 241);
+    height: 900px;
+    width: 100%;
+    
+}
+p.life1{
+    margin-left: 42%;
+    margin-top: 20px;
+    color: rgb(119, 119, 119);
+    top: 50px;
+}
+p.life2{
+    color: rgb(119, 119, 119);
+    margin-left: 38%;
+}
+
+.he_border1{background:#757575;width:450px;height:300px;padding:0;margin:0;border:1px solid rgb(255, 255, 255);position:relative;box-sizing:border-box;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out;overflow:hidden}
+.he_border1 .he_border1_img{display:block;width:100%;padding:0;margin:0;position:relative;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out;opacity:1;overflow:hidden}
+.he_border1:hover .he_border1_img{position:absolute;-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);opacity:.6}
+.he_border1 .he_border1_caption{color:#fff;padding:0;margin:0;-moz-backface-visibility:hidden;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out;overflow:hidden}
+.he_border1 .he_border1_caption::before,.he_border1 .he_border1_caption::after{position:absolute;content:'';opacity:0;-webkit-transition:opacity 0.4s,-webkit-transform .4s;-moz-transition:opacity 0.4s,-moz-transform .4s;-o-transition:opacity 0.4s,-o-transform .4s;transition:opacity 0.4s,transform .4s}
+.he_border1 .he_border1_caption::before{top:8%;right:10%;bottom:8%;left:10%;border-top:1px solid #fff;border-bottom:1px solid #fff;-webkit-transform:scale(0,1);-moz-transform:scale(0,1);-o-transform:scale(0,1);transform:scale(0,1);-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-o-transform-origin:0 0;transform-origin:0 0}
+.he_border1 .he_border1_caption::after{top:8%;right:10%;bottom:8%;left:10%;border-right:1px solid #fff;border-left:1px solid #fff;-webkit-transform:scale(1,0);-moz-transform:scale(1,0);-o-transform:scale(1,0);transform:scale(1,0);-webkit-transform-origin:100% 0;-moz-transform-origin:100% 0;-o-transform-origin:100% 0;transform-origin:100% 0}
+.he_border1:hover .he_border1_caption::before,.he_border1:hover .he_border1_caption::after{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-o-transform:scale(1);transform:scale(1)}
+.he_border1 .he_border1_caption,.he_border1 .he_border1_caption > a{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out;overflow:hidden; z-index:1000}
+.he_border1 .he_border1_caption_h{font-size:1.3em;font-weight:700;text-align:center;width:80%;position:absolute;top:20%;left:10%;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;transition:all .5s ease-in-out;overflow:hidden;opacity:1}
+.he_border1 .he_border1_caption_p{font-size:1em;text-align:center;width:80%;position:absolute;top:60%;left:10%;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out;overflow:hidden;opacity:0}
+.he_border1:hover .he_border1_caption_p{top:45%;opacity:1}
+
+.box1{
+    position: absolute;
+    
+}
+.box2{
+    position: absolute;
+    margin-left: 33%;
+    
+}
+.box3{
+    position: absolute;
+    margin-left: 66%;
+}
+.box4{
+    position: absolute;
+    
+    margin-top: 300px;
+}
+.box5{
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 300px;
+}
+.box6{
+    position: absolute;
+    margin-left: 66%;
+    margin-top: 300px;
+}
+.foot{
+    height: 230px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+}
+
+p.foot1{
+    position: absolute;
+    color: rgb(214, 214, 214);
+    font-size: 18px;
+    margin-left: 70%;
+    
+}
+p.foot2{
+    position: absolute;
+    color: rgb(214, 214, 214);
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
